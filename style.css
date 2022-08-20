@@ -176,6 +176,7 @@ button{
     border: none;
     height: 24px;
     outline: none;
+    width: 100%;
 }
 .container .icon{
     display: flex;
@@ -183,6 +184,15 @@ button{
     align-items: center;
     width: 100%;
     height: 60px;
+}
+@media(max-width:1000px){
+    .container .icon{
+        flex-direction: column;
+        width: 80%;
+    }
+    .container .list input{
+        width: 100%;
+    }
 }
 .container .icon ul{
     list-style: none;
