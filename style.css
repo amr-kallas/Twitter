@@ -120,6 +120,8 @@ button{
 /* End Header */
 
 /* Start Main */
+
+/* Start Main Middle */
 .main{
     width: 71%;
     margin-left: 29%;
@@ -251,6 +253,10 @@ button{
     bottom: 4px;
     position: relative;
 }
+/* End Main Middle */
+
+/* Start Main Side */
+
 .main-side{
     width: 50%;
     height: 100%;
@@ -365,4 +371,6 @@ h1{
 .follower button{
     border: none;
 }
+/* End Main Side */
+
 /* End Main */
